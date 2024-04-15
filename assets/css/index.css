@@ -6,4 +6,39 @@
 
 #profile-photo{
     width: 200px;
+    
+}
+
+#repository  h3{
+    font-size: 1.2rem;
+    color: rgb(0, 150, 232);
+}
+
+.items{
+    display: flex;
+    gap: 1rem;
+}
+
+.topic{
+    display: flex;
+    
+    background-color: rgb(0, 150, 232);
+    color: white;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .items{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        align-items: center;
+    }
+
+    a{
+        word-wrap: break-word;
+    }
 }
